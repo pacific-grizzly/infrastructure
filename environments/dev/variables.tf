@@ -8,3 +8,9 @@ variable "tags" {
   default     = {}
   description = "Tags for the S3 bucket"
 }
+
+variable "versioning_enabled" {
+  type        = bool
+  default     = false
+  description = "Enable versioning bucket"
+}
